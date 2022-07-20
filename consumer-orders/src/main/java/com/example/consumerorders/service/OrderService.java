@@ -2,6 +2,7 @@ package com.example.consumerorders.service;
 
 import com.example.consumerorders.model.Order;
 import com.example.consumerorders.model.OrderReceived;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

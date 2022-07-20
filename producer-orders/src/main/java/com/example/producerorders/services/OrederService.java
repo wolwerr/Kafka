@@ -1,11 +1,13 @@
 package com.example.producerorders.services;
 
+
 import com.example.producerorders.kafka.KafkaProducerConfig;
 import com.example.producerorders.model.Order;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
